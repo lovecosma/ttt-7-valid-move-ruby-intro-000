@@ -14,4 +14,4 @@ def position_taken? (board, index)
     true
   end
 end
-position_taken?([], 0)
+puts position_taken?([], 0)
