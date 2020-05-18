@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 
-position_taken?([]], 0)
+position_taken?([], 0)
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def position_taken? (board, index)
