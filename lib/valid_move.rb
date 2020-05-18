@@ -4,7 +4,7 @@ def valid_move?(board, index)
     false
   elsif position_taken?(board, index)
     false
-  elsif position_taken?(board, index) && board?
+  elsif position_taken?(board, index) 
     true
  end
 end
